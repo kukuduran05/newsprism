@@ -22,7 +22,11 @@
   },
   "homepage": "https://github.com/kukuduran05/newsprism#readme",
   "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "@auth0/nextjs-auth0": "^1.5.0",
     "@prisma/client": "^2.13.1",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.6.1",
     "next": "^10.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
