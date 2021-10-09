@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "prisma:init": "prisma init",
-    "prisma.migrate": "prisma migrate dev --preview-feature"
+    "prisma.migrate": "prisma migrate dev --preview-feature",
+    "postinstall": "prisma generate"
   },
   "repository": {
     "type": "git",
@@ -28,11 +29,15 @@
     "apollo-server-micro": "^2.19.0",
     "dotenv": "^10.0.0",
     "graphql": "^15.6.1",
+    "graphql-middleware": "^6.1.7",
+    "graphql-shield": "^7.5.0",
     "graphql-tools": "^7.0.2",
+    "lodash": "^4.17.21",
     "micro-cors": "^0.1.1",
     "next": "^10.0.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.14",
