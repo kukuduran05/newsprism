@@ -9,7 +9,8 @@ import { permissions } from "../../utils/api/permissions";
 
 const schema = applyMiddleware(makeExecutableSchema({typeDefs, resolvers}),
     log,
-    permissions);
+    // permissions
+);
 
     
 export const config = {
