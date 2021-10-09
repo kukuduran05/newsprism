@@ -19,7 +19,8 @@ export const config = {
 };
 
 const handler = new ApolloServer({
-    schema
+    schema,
+    context
 }).createHandler({
     path: '/api/graphql'
 });
